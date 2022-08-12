@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { BsNewspaper } from "@react-icons/all-files/bs/BsNewspaper";
 
 const NavBar = () => {
   return (
     <div>
       <nav className="navbar fixed-top navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="#">
-           NewsMonkey
+          <Link className="navbar-brand" to="/">
+           <BsNewspaper/> TazaTareen
           </Link>
           <button
             className="navbar-toggler"
